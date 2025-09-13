@@ -1186,7 +1186,6 @@ const Pembinaan: FC<{
                                     <div key={k.id} className="bg-white p-2 rounded-lg text-xs">
                                         <p className="font-semibold text-blue-600 capitalize">{k.status}</p>
                                          <p className="text-slate-600">{k.catatan}</p>
-                                        {/* FIX: Changed p.pembina to k.pembina as the loop variable is k. */}
                                         <p className="text-slate-500">{k.tanggal} - {k.pembina}</p>
                                     </div>
                                 )) : <p className="text-xs text-slate-500">Belum ada riwayat kesehatan.</p>}
