@@ -1,0 +1,26 @@
+{
+  "name": "sistem-absensi-pptq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplikasi Sistem Absensi untuk PPTQ Haqqul Yaqin.",
+  "dependencies": {
+    "@google/genai": "^1.17.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "AI Studio",
+  "license": "UNLICENSED"
+}
